@@ -1,0 +1,28 @@
+
+.Encabezado{
+     width: 1024px;
+     margin: 0 auto;
+     border: 1px solid black;
+     background-color: #fff;
+     padding: 20px; 
+     border-radius: 5px;
+}
+
+.seccion{
+    width: 1024px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f9f9f9;
+     border-radius:5px;
+     height: 500px;
+}
+
+.pie{
+    width: 1024px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f9f9f9;
+     border-radius:5px;
+}
