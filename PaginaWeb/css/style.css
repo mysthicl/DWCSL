@@ -1,0 +1,115 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    height: 70px;
+}
+
+.cuerpo{
+    background-color: #F6F8E2;
+}
+
+.encabezado {
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.seccion {
+    width: 1024px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: auto;
+}
+
+.pie {
+    width: 1024px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+}
+
+#mensaje-encabezado{
+    font-family:monospace; 
+    font-size: 42px;
+}
+
+.contenedor-principal {
+    display: flex;
+}
+
+.contenedor-back, .contenedor-front{
+    flex-basis: 50%;
+}
+
+.pie-i, .pie-d{
+    flex-basis: 50%;
+}
+
+.card{
+    text-align: center;
+}
+
+a{
+    display: inline-block; 
+    overflow: hidden; 
+    position: relative; 
+    transition: transform 0.3s ease; 
+}
+
+a:hover{
+    transform: scale(1.05); 
+}
+
+.imagenes{
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+}
+
+a:hover img{
+    transform: scale(1.05); 
+}
+
+.menu{
+    text-align: end;
+    font-size: 24px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nombres-cursos{
+    font-family:monospace; 
+    font-size: 26px;
+}
+
